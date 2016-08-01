@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRMultipleContactPicker_Example' do
+  pod 'MRMultipleContactPicker', :path => '../'
+
+  target 'MRMultipleContactPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
