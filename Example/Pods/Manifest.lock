@@ -1,5 +1,5 @@
 PODS:
-  - MRMultipleContactPicker (0.1.0)
+  - MRMultipleContactPicker (0.0.1)
 
 DEPENDENCIES:
   - MRMultipleContactPicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MRMultipleContactPicker: 2f8d8b32f2efc328f5aa293c083e52bfcbb36d4f
+  MRMultipleContactPicker: 1bb46fdd1691a9b618773dd1cbc5c2577991c993
 
 PODFILE CHECKSUM: 045dfedc4e6fbc05baa886bb0eaf156e29400558
 

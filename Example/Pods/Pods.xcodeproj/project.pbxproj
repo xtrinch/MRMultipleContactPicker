@@ -14,8 +14,6 @@
 		5091E62241033D89A0C438504CBE2AD2 /* Pods-MRMultipleContactPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B04BD666EAC19E4E67324028CAB9F35 /* MRMultipleContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9267E5E91340EEA16470EC7C334E92 /* MRMultipleContactPicker-dummy.m */; };
 		7921DFB514C9E0AFEC6AE7B29DF8FECB /* MRMultipleContactPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E7A32AE637AB1406582F8421684F /* MRMultipleContactPickerController.swift */; };
-		8D86E8E81D4F8A6F00AF8FF2 /* mrmultiplecontactpicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */; };
-		8D87687F1D4F86C80060EC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A5B662547F35699FF55ED8C632140F /* Main.storyboard */; };
 		9101488A7425320525C55BEAE9087790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A5B662547F35699FF55ED8C632140F /* Main.storyboard */; };
 		A0DCA838C69BDAFC7D0B851BEA248165 /* Pods-MRMultipleContactPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 762A55C428192DAB8514F70643FFACDB /* Pods-MRMultipleContactPicker_Example-dummy.m */; };
 		A9AD13DB0CD71D8055C8C75CE8EB3681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -418,8 +416,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDD93D1E320998317E55C4CF402EF9E /* MRMultipleContactPicker.bundle in Resources */,
-				8D86E8E81D4F8A6F00AF8FF2 /* mrmultiplecontactpicker.xcassets in Resources */,
-				8D87687F1D4F86C80060EC02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
