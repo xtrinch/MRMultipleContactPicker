@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059C54654A5E869D6EEDB6C48AD38CA4 /* Pods-MRMultipleContactPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A02A0497E3EFCE8E73C975DD24054 /* Pods-MRMultipleContactPicker_Tests-dummy.m */; };
+		10BFEA700680B3C99ED7BDE150199A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2BDD93D1E320998317E55C4CF402EF9E /* MRMultipleContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848D287B46546A6D3271B1F7E4974C00 /* MRMultipleContactPicker.bundle */; };
+		4FA100CF2C6FFD21E9B99C750CF1505C /* Pods-MRMultipleContactPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46848A8FFA6450C580031B5F68349FA6 /* Pods-MRMultipleContactPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5091E62241033D89A0C438504CBE2AD2 /* Pods-MRMultipleContactPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B04BD666EAC19E4E67324028CAB9F35 /* MRMultipleContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9267E5E91340EEA16470EC7C334E92 /* MRMultipleContactPicker-dummy.m */; };
+		7921DFB514C9E0AFEC6AE7B29DF8FECB /* MRMultipleContactPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3171E7A32AE637AB1406582F8421684F /* MRMultipleContactPickerController.swift */; };
+		8D86E8E81D4F8A6F00AF8FF2 /* mrmultiplecontactpicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */; };
+		8D87687F1D4F86C80060EC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A5B662547F35699FF55ED8C632140F /* Main.storyboard */; };
+		9101488A7425320525C55BEAE9087790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A5B662547F35699FF55ED8C632140F /* Main.storyboard */; };
+		A0DCA838C69BDAFC7D0B851BEA248165 /* Pods-MRMultipleContactPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 762A55C428192DAB8514F70643FFACDB /* Pods-MRMultipleContactPicker_Example-dummy.m */; };
+		A9AD13DB0CD71D8055C8C75CE8EB3681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B29DBA7E8F91944812945E1BB67DBA92 /* MRMultipleContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6689817BA1245AD304E9350A70AC98FE /* MRMultipleContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C02C26D37EC4FB667ED14A9972EF831E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EF27C8DD1ED9ED0973F5A25066D860D2 /* mrmultiplecontactpicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B107C13D952D1C1E1770108232D7E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A87195EA866F9C899A5BD9327FECFEC;
+			remoteInfo = "MRMultipleContactPicker-MRMultipleContactPicker";
+		};
+		13E4B43F8F7783784B8ADF97CD561503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 509B664E346B032572E89B527E6C11E8;
+			remoteInfo = MRMultipleContactPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015E13BBC7D2E09B860C41EDFF9B9071 /* ResourceBundle-MRMultipleContactPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MRMultipleContactPicker-Info.plist"; sourceTree = "<group>"; };
+		145DC9554F010B7535364973217A6D45 /* MRMultipleContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRMultipleContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F754F17558648AFF62D3859CED6AD9 /* Pods-MRMultipleContactPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRMultipleContactPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1D68CEFBF5BE0AD32366D07AF6054389 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD623DF0051F23F052796F48A5585C0 /* Pods_MRMultipleContactPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRMultipleContactPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		220E5297EC3E6BE518B88233F833B556 /* Pods-MRMultipleContactPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MRMultipleContactPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		275E8AF5BE3933DCBAE173E75FFE6DA2 /* Pods-MRMultipleContactPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		278A02A0497E3EFCE8E73C975DD24054 /* Pods-MRMultipleContactPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRMultipleContactPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		3171E7A32AE637AB1406582F8421684F /* MRMultipleContactPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MRMultipleContactPickerController.swift; sourceTree = "<group>"; };
+		356D0E8E8B83DB8F9FD16DEAF23C7FB5 /* Pods-MRMultipleContactPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MRMultipleContactPicker_Example.modulemap"; sourceTree = "<group>"; };
+		39A5B662547F35699FF55ED8C632140F /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRMultipleContactPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		46848A8FFA6450C580031B5F68349FA6 /* Pods-MRMultipleContactPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRMultipleContactPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRMultipleContactPicker.xcconfig; sourceTree = "<group>"; };
+		4C16CF0090E84DE48BBB3798CC1D8281 /* Pods_MRMultipleContactPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MRMultipleContactPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7EBD72849C03867B90B53A49DA29B5 /* Pods-MRMultipleContactPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRMultipleContactPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		4E8C937EE6151D8546EA153299511BE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB92E60B694CB387CB8E31086147BF4 /* MRMultipleContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRMultipleContactPicker-prefix.pch"; sourceTree = "<group>"; };
+		615D29A2764090A19DE5FA2395F0747F /* Pods-MRMultipleContactPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6689817BA1245AD304E9350A70AC98FE /* MRMultipleContactPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRMultipleContactPicker-umbrella.h"; sourceTree = "<group>"; };
+		6EA4D72C8BD85A77E28BB62B9015C185 /* Pods-MRMultipleContactPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9267E5E91340EEA16470EC7C334E92 /* MRMultipleContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRMultipleContactPicker-dummy.m"; sourceTree = "<group>"; };
+		762A55C428192DAB8514F70643FFACDB /* Pods-MRMultipleContactPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRMultipleContactPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		848D287B46546A6D3271B1F7E4974C00 /* MRMultipleContactPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRMultipleContactPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C56710FEE554933F00932805CDD814 /* Pods-MRMultipleContactPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRMultipleContactPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACFC802A17AB455DA36489293A4675EC /* Pods-MRMultipleContactPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRMultipleContactPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B90DF087B64061FE0D897BB7E550DA49 /* Pods-MRMultipleContactPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MRMultipleContactPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		C12915CFB436947DDA5030E603C335AC /* Pods-MRMultipleContactPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MRMultipleContactPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4BDE4B63E44DC4BAFC38335A0285423 /* Pods-MRMultipleContactPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRMultipleContactPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C58AE8288B86F8E6756F25F69A739140 /* MRMultipleContactPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MRMultipleContactPicker.modulemap; sourceTree = "<group>"; };
+		CB5C9DC51693030E61B357C129093C0A /* Pods-MRMultipleContactPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRMultipleContactPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = mrmultiplecontactpicker.xcassets; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D348AB3CB18CFD75A5565F51CEF38136 /* Pods-MRMultipleContactPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DAB1DF041420E6B87F5FF5A4E426998D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3167F4C43C24DC6DA17F489BE8DD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6978ECCF26393DFAECA66B87E8C64BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AD13DB0CD71D8055C8C75CE8EB3681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C769903DE9EFB6C19916E6E982B5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02C26D37EC4FB667ED14A9972EF831E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E08E35381434402F207AB54BE48F3DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BFEA700680B3C99ED7BDE150199A44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2311439DA00FC493F93AAD61B2994D16 /* Pods-MRMultipleContactPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8C937EE6151D8546EA153299511BE7 /* Info.plist */,
+				220E5297EC3E6BE518B88233F833B556 /* Pods-MRMultipleContactPicker_Tests.modulemap */,
+				A1C56710FEE554933F00932805CDD814 /* Pods-MRMultipleContactPicker_Tests-acknowledgements.markdown */,
+				CB5C9DC51693030E61B357C129093C0A /* Pods-MRMultipleContactPicker_Tests-acknowledgements.plist */,
+				278A02A0497E3EFCE8E73C975DD24054 /* Pods-MRMultipleContactPicker_Tests-dummy.m */,
+				18F754F17558648AFF62D3859CED6AD9 /* Pods-MRMultipleContactPicker_Tests-frameworks.sh */,
+				B90DF087B64061FE0D897BB7E550DA49 /* Pods-MRMultipleContactPicker_Tests-resources.sh */,
+				46848A8FFA6450C580031B5F68349FA6 /* Pods-MRMultipleContactPicker_Tests-umbrella.h */,
+				275E8AF5BE3933DCBAE173E75FFE6DA2 /* Pods-MRMultipleContactPicker_Tests.debug.xcconfig */,
+				615D29A2764090A19DE5FA2395F0747F /* Pods-MRMultipleContactPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-MRMultipleContactPicker_Tests";
+			path = "Target Support Files/Pods-MRMultipleContactPicker_Tests";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5887F1A59ADB4C7F01A9CD7A91798994 /* MRMultipleContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				99EB2BB19B0468CADE587EA2FABAE63F /* Assets */,
+			);
+			path = MRMultipleContactPicker;
+			sourceTree = "<group>";
+		};
+		5D72628397EFBDF0E3428323BB9E8639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848D287B46546A6D3271B1F7E4974C00 /* MRMultipleContactPicker.bundle */,
+				145DC9554F010B7535364973217A6D45 /* MRMultipleContactPicker.framework */,
+				4C16CF0090E84DE48BBB3798CC1D8281 /* Pods_MRMultipleContactPicker_Example.framework */,
+				1DD623DF0051F23F052796F48A5585C0 /* Pods_MRMultipleContactPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FDF70F74AF27FE46EDDADD6ECE28F413 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5D72628397EFBDF0E3428323BB9E8639 /* Products */,
+				CB6738B651561FB587E81BCDE4CC4323 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9769A887029AD1166AC14D766EB86E62 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3171E7A32AE637AB1406582F8421684F /* MRMultipleContactPickerController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		99EB2BB19B0468CADE587EA2FABAE63F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				39A5B662547F35699FF55ED8C632140F /* Main.storyboard */,
+				CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		9BA3F328A797D1AD2552E3AE14988340 /* Pods-MRMultipleContactPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1D68CEFBF5BE0AD32366D07AF6054389 /* Info.plist */,
+				356D0E8E8B83DB8F9FD16DEAF23C7FB5 /* Pods-MRMultipleContactPicker_Example.modulemap */,
+				C12915CFB436947DDA5030E603C335AC /* Pods-MRMultipleContactPicker_Example-acknowledgements.markdown */,
+				C4BDE4B63E44DC4BAFC38335A0285423 /* Pods-MRMultipleContactPicker_Example-acknowledgements.plist */,
+				762A55C428192DAB8514F70643FFACDB /* Pods-MRMultipleContactPicker_Example-dummy.m */,
+				ACFC802A17AB455DA36489293A4675EC /* Pods-MRMultipleContactPicker_Example-frameworks.sh */,
+				4E7EBD72849C03867B90B53A49DA29B5 /* Pods-MRMultipleContactPicker_Example-resources.sh */,
+				3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */,
+				6EA4D72C8BD85A77E28BB62B9015C185 /* Pods-MRMultipleContactPicker_Example.debug.xcconfig */,
+				D348AB3CB18CFD75A5565F51CEF38136 /* Pods-MRMultipleContactPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-MRMultipleContactPicker_Example";
+			path = "Target Support Files/Pods-MRMultipleContactPicker_Example";
+			sourceTree = "<group>";
+		};
+		BA468D8515F91BD640642BA44E92142E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5887F1A59ADB4C7F01A9CD7A91798994 /* MRMultipleContactPicker */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB6738B651561FB587E81BCDE4CC4323 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA3F328A797D1AD2552E3AE14988340 /* Pods-MRMultipleContactPicker_Example */,
+				2311439DA00FC493F93AAD61B2994D16 /* Pods-MRMultipleContactPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E7A320FB32C496AF203E16014AD542DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAB1DF041420E6B87F5FF5A4E426998D /* Info.plist */,
+				C58AE8288B86F8E6756F25F69A739140 /* MRMultipleContactPicker.modulemap */,
+				4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */,
+				6F9267E5E91340EEA16470EC7C334E92 /* MRMultipleContactPicker-dummy.m */,
+				5AB92E60B694CB387CB8E31086147BF4 /* MRMultipleContactPicker-prefix.pch */,
+				6689817BA1245AD304E9350A70AC98FE /* MRMultipleContactPicker-umbrella.h */,
+				015E13BBC7D2E09B860C41EDFF9B9071 /* ResourceBundle-MRMultipleContactPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MRMultipleContactPicker";
+			sourceTree = "<group>";
+		};
+		F50A707214A05A303688D15CDE0C4A45 /* MRMultipleContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9769A887029AD1166AC14D766EB86E62 /* Classes */,
+			);
+			path = MRMultipleContactPicker;
+			sourceTree = "<group>";
+		};
+		FDF70F74AF27FE46EDDADD6ECE28F413 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE32D50F803857FEF1225393B6FE5112 /* MRMultipleContactPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE32D50F803857FEF1225393B6FE5112 /* MRMultipleContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F50A707214A05A303688D15CDE0C4A45 /* MRMultipleContactPicker */,
+				BA468D8515F91BD640642BA44E92142E /* Resources */,
+				E7A320FB32C496AF203E16014AD542DB /* Support Files */,
+			);
+			name = MRMultipleContactPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E0BCF0CFDA74093EE2FDED8B4C344E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5091E62241033D89A0C438504CBE2AD2 /* Pods-MRMultipleContactPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3BDB5D52308B79539EBC13DB7DFE08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA100CF2C6FFD21E9B99C750CF1505C /* Pods-MRMultipleContactPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7661298C44E14E5503EC8459DB0655 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B29DBA7E8F91944812945E1BB67DBA92 /* MRMultipleContactPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		047717EA6A327D3FBE2F7F818B60F91B /* Pods-MRMultipleContactPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAADE0669FDF299B685D8AB4A1BD115 /* Build configuration list for PBXNativeTarget "Pods-MRMultipleContactPicker_Tests" */;
+			buildPhases = (
+				7B057089012FEC9BFA9C7D6E781492EE /* Sources */,
+				6978ECCF26393DFAECA66B87E8C64BC6 /* Frameworks */,
+				5A3BDB5D52308B79539EBC13DB7DFE08 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MRMultipleContactPicker_Tests";
+			productName = "Pods-MRMultipleContactPicker_Tests";
+			productReference = 1DD623DF0051F23F052796F48A5585C0 /* Pods_MRMultipleContactPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		509B664E346B032572E89B527E6C11E8 /* MRMultipleContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594728C4161E74CA920DF31EDA379D79 /* Build configuration list for PBXNativeTarget "MRMultipleContactPicker" */;
+			buildPhases = (
+				37D97D1C83FD17AEAA0E3C1A802BA1EB /* Sources */,
+				D1C769903DE9EFB6C19916E6E982B5FC /* Frameworks */,
+				D8E0544372E6A5C8719B213CFC88CD2C /* Resources */,
+				7D7661298C44E14E5503EC8459DB0655 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E88B4ABF90C4C29558AE2E422D4C19 /* PBXTargetDependency */,
+			);
+			name = MRMultipleContactPicker;
+			productName = MRMultipleContactPicker;
+			productReference = 145DC9554F010B7535364973217A6D45 /* MRMultipleContactPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A87195EA866F9C899A5BD9327FECFEC /* MRMultipleContactPicker-MRMultipleContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651AE039CC029D30DCE8F98962274962 /* Build configuration list for PBXNativeTarget "MRMultipleContactPicker-MRMultipleContactPicker" */;
+			buildPhases = (
+				211B97EB64A2DD2ABEFBF69A4B9015D5 /* Sources */,
+				1A3167F4C43C24DC6DA17F489BE8DD69 /* Frameworks */,
+				AB20A6359866AAAC64A38F5307F6F911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MRMultipleContactPicker-MRMultipleContactPicker";
+			productName = "MRMultipleContactPicker-MRMultipleContactPicker";
+			productReference = 848D287B46546A6D3271B1F7E4974C00 /* MRMultipleContactPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		80BF5CE52B34DE12EE7FB561F127E8D2 /* Pods-MRMultipleContactPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8ED4127D737B4847570958001965720 /* Build configuration list for PBXNativeTarget "Pods-MRMultipleContactPicker_Example" */;
+			buildPhases = (
+				3FEA49CC68D980AB3730CCC0DE6DA7E1 /* Sources */,
+				E08E35381434402F207AB54BE48F3DFF /* Frameworks */,
+				1E0BCF0CFDA74093EE2FDED8B4C344E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0AB1A7DBC6F77B1A441B31E9EAF27C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MRMultipleContactPicker_Example";
+			productName = "Pods-MRMultipleContactPicker_Example";
+			productReference = 4C16CF0090E84DE48BBB3798CC1D8281 /* Pods_MRMultipleContactPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D72628397EFBDF0E3428323BB9E8639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				509B664E346B032572E89B527E6C11E8 /* MRMultipleContactPicker */,
+				6A87195EA866F9C899A5BD9327FECFEC /* MRMultipleContactPicker-MRMultipleContactPicker */,
+				80BF5CE52B34DE12EE7FB561F127E8D2 /* Pods-MRMultipleContactPicker_Example */,
+				047717EA6A327D3FBE2F7F818B60F91B /* Pods-MRMultipleContactPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB20A6359866AAAC64A38F5307F6F911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9101488A7425320525C55BEAE9087790 /* Main.storyboard in Resources */,
+				EF27C8DD1ED9ED0973F5A25066D860D2 /* mrmultiplecontactpicker.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8E0544372E6A5C8719B213CFC88CD2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDD93D1E320998317E55C4CF402EF9E /* MRMultipleContactPicker.bundle in Resources */,
+				8D86E8E81D4F8A6F00AF8FF2 /* mrmultiplecontactpicker.xcassets in Resources */,
+				8D87687F1D4F86C80060EC02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211B97EB64A2DD2ABEFBF69A4B9015D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D97D1C83FD17AEAA0E3C1A802BA1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B04BD666EAC19E4E67324028CAB9F35 /* MRMultipleContactPicker-dummy.m in Sources */,
+				7921DFB514C9E0AFEC6AE7B29DF8FECB /* MRMultipleContactPickerController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEA49CC68D980AB3730CCC0DE6DA7E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DCA838C69BDAFC7D0B851BEA248165 /* Pods-MRMultipleContactPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B057089012FEC9BFA9C7D6E781492EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059C54654A5E869D6EEDB6C48AD38CA4 /* Pods-MRMultipleContactPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E88B4ABF90C4C29558AE2E422D4C19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MRMultipleContactPicker-MRMultipleContactPicker";
+			target = 6A87195EA866F9C899A5BD9327FECFEC /* MRMultipleContactPicker-MRMultipleContactPicker */;
+			targetProxy = 08B107C13D952D1C1E1770108232D7E3 /* PBXContainerItemProxy */;
+		};
+		F0AB1A7DBC6F77B1A441B31E9EAF27C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRMultipleContactPicker;
+			target = 509B664E346B032572E89B527E6C11E8 /* MRMultipleContactPicker */;
+			targetProxy = 13E4B43F8F7783784B8ADF97CD561503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1858CF0F0DB564310390F282E688CB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D348AB3CB18CFD75A5565F51CEF38136 /* Pods-MRMultipleContactPicker_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Example/Pods-MRMultipleContactPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRMultipleContactPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		18CA20E1BF22D150438128CFB1B77C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 615D29A2764090A19DE5FA2395F0747F /* Pods-MRMultipleContactPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Tests/Pods-MRMultipleContactPicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRMultipleContactPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52DE18B79D0EAE55D3069B6900D6F5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRMultipleContactPicker/MRMultipleContactPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRMultipleContactPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRMultipleContactPicker/MRMultipleContactPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MRMultipleContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E3EC18BDB9DAE7398C120CAF943DA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRMultipleContactPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MRMultipleContactPicker/ResourceBundle-MRMultipleContactPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MRMultipleContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7D5C6A059B64544EEBC57D5AE065A32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MRMultipleContactPicker";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/MRMultipleContactPicker/ResourceBundle-MRMultipleContactPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MRMultipleContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8ABD248FEBE52387E1D7F0CBBA839324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5505CD6E857DA13FA716EAD070552C /* MRMultipleContactPicker.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MRMultipleContactPicker/MRMultipleContactPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRMultipleContactPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRMultipleContactPicker/MRMultipleContactPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MRMultipleContactPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B987E4E1D61D618260827B5EFA6B5C2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275E8AF5BE3933DCBAE173E75FFE6DA2 /* Pods-MRMultipleContactPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Tests/Pods-MRMultipleContactPicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRMultipleContactPicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBFCE460AAB1BBCDC21BBAE4231EB001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA4D72C8BD85A77E28BB62B9015C185 /* Pods-MRMultipleContactPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MRMultipleContactPicker_Example/Pods-MRMultipleContactPicker_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MRMultipleContactPicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594728C4161E74CA920DF31EDA379D79 /* Build configuration list for PBXNativeTarget "MRMultipleContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ABD248FEBE52387E1D7F0CBBA839324 /* Debug */,
+				52DE18B79D0EAE55D3069B6900D6F5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651AE039CC029D30DCE8F98962274962 /* Build configuration list for PBXNativeTarget "MRMultipleContactPicker-MRMultipleContactPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D5C6A059B64544EEBC57D5AE065A32F /* Debug */,
+				6E3EC18BDB9DAE7398C120CAF943DA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8ED4127D737B4847570958001965720 /* Build configuration list for PBXNativeTarget "Pods-MRMultipleContactPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBFCE460AAB1BBCDC21BBAE4231EB001 /* Debug */,
+				1858CF0F0DB564310390F282E688CB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBAADE0669FDF299B685D8AB4A1BD115 /* Build configuration list for PBXNativeTarget "Pods-MRMultipleContactPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B987E4E1D61D618260827B5EFA6B5C2B /* Debug */,
+				18CA20E1BF22D150438128CFB1B77C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

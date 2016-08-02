@@ -1,0 +1,27 @@
+{
+  "name": "MRMultipleContactPicker",
+  "version": "0.1.0",
+  "summary": "A short description of MRMultipleContactPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MRMultipleContactPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mojca Rojko": "mojca.rojko@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MRMultipleContactPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MRMultipleContactPicker/Classes/**/*",
+  "resource_bundles": {
+    "MRMultipleContactPicker": [
+      "MRMultipleContactPicker/Assets/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,lproj}"
+    ]
+  }
+}

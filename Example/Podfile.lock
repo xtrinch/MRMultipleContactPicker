@@ -1,0 +1,16 @@
+PODS:
+  - MRMultipleContactPicker (0.1.0)
+
+DEPENDENCIES:
+  - MRMultipleContactPicker (from `../`)
+
+EXTERNAL SOURCES:
+  MRMultipleContactPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MRMultipleContactPicker: 2f8d8b32f2efc328f5aa293c083e52bfcbb36d4f
+
+PODFILE CHECKSUM: 045dfedc4e6fbc05baa886bb0eaf156e29400558
+
+COCOAPODS: 1.0.1

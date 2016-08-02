@@ -6,18 +6,35 @@
 //  Copyright (c) 2016 Mojca Rojko. All rights reserved.
 //
 
+import MRMultipleContactPicker
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: UIViewController, MRMultipleContactPickerDelegate {
+    @IBAction func showContactsTapped(sender: AnyObject) {
+        displayContactPicker()
     }
 
+    func displayContactPicker() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        
+        let s = UIStoryboard (
+            name: "Main", bundle: NSBundle(forClass: MRMultipleContactPickerController.self)
+        )
+        let vc = s.instantiateInitialViewController()!
+        (vc as! MRMultipleContactPickerController).delegate = self
+        (vc as! MRMultipleContactPickerController).titleText = "Choose"
+        self.presentViewController(vc, animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    // MARK: MRMultipleContactPickerDelegate methods
+    func contactsSelected(people:[Person]) {
+        print(people)
     }
 
 }
