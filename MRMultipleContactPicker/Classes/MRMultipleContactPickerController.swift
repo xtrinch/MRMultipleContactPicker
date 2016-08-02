@@ -88,9 +88,7 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
         self.button.setTitle(continueText, forState: UIControlState.Normal)
         button.layer.cornerRadius = 3.0
         tableView.rowHeight = 60
-        
-        var err: Unmanaged<CFError>? = nil
-        
+                
         ABAddressBookRequestAccessWithCompletion(addressBookRef) {
             (granted: Bool, error: CFError!) in
             dispatch_async(dispatch_get_main_queue()) {

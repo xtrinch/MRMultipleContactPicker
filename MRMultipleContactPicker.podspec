@@ -25,7 +25,7 @@ Multiple contact picker for ios 8.0+ in swift 2.2
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mojca Rojko' => 'mojca.rojko@gmail.com' }
-  s.source           = { :git => 'https://github.com/xTrinch/MRMultipleContactPicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/xtrinch/MRMultipleContactPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
