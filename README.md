@@ -5,9 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/MRMultipleContactPicker.svg?style=flat)](http://cocoapods.org/pods/MRMultipleContactPicker)
 [![Platform](https://img.shields.io/cocoapods/p/MRMultipleContactPicker.svg?style=flat)](http://cocoapods.org/pods/MRMultipleContactPicker)
 
+Lets you choose multiple contacts from user's address book. Returns selected contacts on button press to the designated delegated. Does not have a search functionality and colors cannot be edited, but I will be very happy to accept pull requests.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+<img src='https://raw.githubusercontent.com/xTrinch/MRMultipleContactPicker/master/Graphics/screenshot1.png' alt='MRMultipleContactPicker screenshot'>
 
 ## Usage
 
@@ -20,9 +24,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
         }
     
         func displayContactPicker() {
-            super.viewDidLoad()
+            let podBundle = NSBundle(forClass: MRMultipleContactPickerController.self)
+            let bundleURL = podBundle.URLForResource("MRMultipleContactPicker", withExtension: "bundle")
+            let bundle = NSBundle(URL: bundleURL!)!
+    
             let s = UIStoryboard (
-                name: "Main", bundle: NSBundle(forClass: MRMultipleContactPickerController.self)
+                name: "Main", bundle: bundle
             )
             let vc = s.instantiateInitialViewController()!
             (vc as! MRMultipleContactPickerController).delegate = self
@@ -50,7 +57,7 @@ pod "MRMultipleContactPicker"
 
 ## Author
 
-Mojca Rojko, mojca.rojko@gmail.com
+xTrinch, mojca.rojko@gmail.com
 
 ## License
 
