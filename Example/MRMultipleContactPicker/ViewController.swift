@@ -18,8 +18,13 @@ class ViewController: UIViewController, MRMultipleContactPickerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+
+        let podBundle = NSBundle(forClass: MRMultipleContactPickerController.self)
+        let bundleURL = podBundle.URLForResource("MRMultipleContactPicker", withExtension: "bundle")
+        let bundle = NSBundle(URL: bundleURL!)!
+
         let s = UIStoryboard (
-            name: "Main", bundle: NSBundle(forClass: MRMultipleContactPickerController.self)
+            name: "Main", bundle: bundle
         )
         let vc = s.instantiateInitialViewController()!
         (vc as! MRMultipleContactPickerController).delegate = self
