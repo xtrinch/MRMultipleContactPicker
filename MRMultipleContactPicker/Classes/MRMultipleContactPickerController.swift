@@ -31,7 +31,7 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
         var persons:[Person] = []
         for person in selectedPeople {
             
-            let firstName = ABRecordCopyCompositeName(person).takeRetainedValue() as? String
+            let firstName = ABRecordCopyCompositeName(person).takeRetainedValue() as String
             
             var emails:[String] = []
             let emailRecords = ABRecordCopyValue(person, kABPersonEmailProperty).takeRetainedValue() as ABMultiValueRef
