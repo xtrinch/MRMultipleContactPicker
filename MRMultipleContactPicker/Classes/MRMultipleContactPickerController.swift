@@ -16,7 +16,6 @@ import AddressBook
 
 public class Person:NSObject {
     var name:String?
-    var surname:String?
     var phoneNumber:String?
     var email:String?
 }
@@ -31,10 +30,8 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
     @IBAction func onContinue(sender: AnyObject) {
         var persons:[Person] = []
         for person in selectedPeople {
-            print(person)
             
-            let firstName = ABRecordCopyValue(person, kABPersonFirstNameProperty).takeRetainedValue() as? String
-            let lastName = ABRecordCopyValue(person, kABPersonLastNameProperty).takeRetainedValue() as? String
+            let firstName = ABRecordCopyCompositeName(person).takeRetainedValue() as? String
             
             var emails:[String] = []
             let emailRecords = ABRecordCopyValue(person, kABPersonEmailProperty).takeRetainedValue() as ABMultiValueRef
@@ -56,7 +53,6 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
             
             let person:Person = Person()
             person.name = firstName
-            person.surname = lastName
             if phoneNumbers.count > 0 {
                 person.phoneNumber = phoneNumbers[0]
             }
@@ -69,7 +65,7 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
         guard let delegate = delegate else {
             return
         }
-
+        
         self.dismissViewControllerAnimated(true, completion: { (void) in
             delegate.contactsSelected(persons)
         })
@@ -99,6 +95,7 @@ public class MRMultipleContactPickerController:UIViewController, UITableViewData
                     
                     self.tableView.delegate = self
                     self.tableView.dataSource = self
+                    self.tableView.reloadData()
                 }
             }
         }
