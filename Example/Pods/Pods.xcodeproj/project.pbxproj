@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		059C54654A5E869D6EEDB6C48AD38CA4 /* Pods-MRMultipleContactPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 278A02A0497E3EFCE8E73C975DD24054 /* Pods-MRMultipleContactPicker_Tests-dummy.m */; };
-		106F30D7E60AA01D77783A34496D04CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A5B662547F35699FF55ED8C632140F /* Main.storyboard */; };
 		10BFEA700680B3C99ED7BDE150199A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4FA100CF2C6FFD21E9B99C750CF1505C /* Pods-MRMultipleContactPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46848A8FFA6450C580031B5F68349FA6 /* Pods-MRMultipleContactPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5091E62241033D89A0C438504CBE2AD2 /* Pods-MRMultipleContactPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,7 +15,7 @@
 		5D5E9F0CC317EE280CE5EDCDA1344CE3 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 8DF9F9AB85908FF86AAF71DEE6F80273 /* Main.storyboard */; };
 		5D92559578C2573F64E6A0FC00E72EC9 /* MRMultipleContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6689817BA1245AD304E9350A70AC98FE /* MRMultipleContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8366502FAE938205AC1AFA19ADC28118 /* MRMultipleContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9267E5E91340EEA16470EC7C334E92 /* MRMultipleContactPicker-dummy.m */; };
-		9532B65BD794FCE40A6727987B2C98E5 /* mrmultiplecontactpicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */; };
+		987A10FC26227E55C17E6F51A0AFF95A /* mrmultiplecontactpicker.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6C9F60638F5C3C3AC741ED5B775A0E /* mrmultiplecontactpicker.xcassets */; };
 		A0DCA838C69BDAFC7D0B851BEA248165 /* Pods-MRMultipleContactPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 762A55C428192DAB8514F70643FFACDB /* Pods-MRMultipleContactPicker_Example-dummy.m */; };
 		A270C0E1D2E276B76F3C8452FD18CC38 /* MRMultipleContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848D287B46546A6D3271B1F7E4974C00 /* MRMultipleContactPicker.bundle */; };
 		A9AD13DB0CD71D8055C8C75CE8EB3681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -49,8 +48,8 @@
 		220E5297EC3E6BE518B88233F833B556 /* Pods-MRMultipleContactPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MRMultipleContactPicker_Tests.modulemap"; sourceTree = "<group>"; };
 		275E8AF5BE3933DCBAE173E75FFE6DA2 /* Pods-MRMultipleContactPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		278A02A0497E3EFCE8E73C975DD24054 /* Pods-MRMultipleContactPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MRMultipleContactPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		2C6C9F60638F5C3C3AC741ED5B775A0E /* mrmultiplecontactpicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = mrmultiplecontactpicker.xcassets; sourceTree = "<group>"; };
 		356D0E8E8B83DB8F9FD16DEAF23C7FB5 /* Pods-MRMultipleContactPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MRMultipleContactPicker_Example.modulemap"; sourceTree = "<group>"; };
-		39A5B662547F35699FF55ED8C632140F /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3E817E6E6795C1165DDAF86FB2420904 /* Pods-MRMultipleContactPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRMultipleContactPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		42C9FE16A730409CAEFB27E1A959CCFC /* MRMultipleContactPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MRMultipleContactPickerController.swift; sourceTree = "<group>"; };
 		46848A8FFA6450C580031B5F68349FA6 /* Pods-MRMultipleContactPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MRMultipleContactPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -74,7 +73,6 @@
 		C4BDE4B63E44DC4BAFC38335A0285423 /* Pods-MRMultipleContactPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRMultipleContactPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C58AE8288B86F8E6756F25F69A739140 /* MRMultipleContactPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MRMultipleContactPicker.modulemap; sourceTree = "<group>"; };
 		CB5C9DC51693030E61B357C129093C0A /* Pods-MRMultipleContactPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MRMultipleContactPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = mrmultiplecontactpicker.xcassets; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D348AB3CB18CFD75A5565F51CEF38136 /* Pods-MRMultipleContactPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MRMultipleContactPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DAB1DF041420E6B87F5FF5A4E426998D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -158,14 +156,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		5887F1A59ADB4C7F01A9CD7A91798994 /* MRMultipleContactPicker */ = {
-			isa = PBXGroup;
-			children = (
-				99EB2BB19B0468CADE587EA2FABAE63F /* Assets */,
-			);
-			path = MRMultipleContactPicker;
-			sourceTree = "<group>";
-		};
 		5D72628397EFBDF0E3428323BB9E8639 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +167,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5F25847577E2F4EEA2210B7464119C60 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2C6C9F60638F5C3C3AC741ED5B775A0E /* mrmultiplecontactpicker.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -186,15 +184,6 @@
 				5D72628397EFBDF0E3428323BB9E8639 /* Products */,
 				CB6738B651561FB587E81BCDE4CC4323 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		99EB2BB19B0468CADE587EA2FABAE63F /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				39A5B662547F35699FF55ED8C632140F /* Main.storyboard */,
-				CE5CAABBEAAABF9989A628042C4E6A0A /* mrmultiplecontactpicker.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		9BA3F328A797D1AD2552E3AE14988340 /* Pods-MRMultipleContactPicker_Example */ = {
@@ -218,7 +207,7 @@
 		BA468D8515F91BD640642BA44E92142E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5887F1A59ADB4C7F01A9CD7A91798994 /* MRMultipleContactPicker */,
+				DF1ED40EFD795B40BCCFEFD3254E8C7E /* MRMultipleContactPicker */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -238,6 +227,14 @@
 				2311439DA00FC493F93AAD61B2994D16 /* Pods-MRMultipleContactPicker_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF1ED40EFD795B40BCCFEFD3254E8C7E /* MRMultipleContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5F25847577E2F4EEA2210B7464119C60 /* Assets */,
+			);
+			path = MRMultipleContactPicker;
 			sourceTree = "<group>";
 		};
 		E7A320FB32C496AF203E16014AD542DB /* Support Files */ = {
@@ -345,7 +342,7 @@
 			buildPhases = (
 				C35331BCA72F78821AFF14A0185EDA1F /* Sources */,
 				848D22B1D5777AF997437C05DCC8EF24 /* Frameworks */,
-				EB2B8922B78CB641C6D6970300995636 /* Resources */,
+				F9B686C831ADCE9EA829466A4A91848A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -413,12 +410,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB2B8922B78CB641C6D6970300995636 /* Resources */ = {
+		F9B686C831ADCE9EA829466A4A91848A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				106F30D7E60AA01D77783A34496D04CC /* Main.storyboard in Resources */,
-				9532B65BD794FCE40A6727987B2C98E5 /* mrmultiplecontactpicker.xcassets in Resources */,
+				987A10FC26227E55C17E6F51A0AFF95A /* mrmultiplecontactpicker.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
