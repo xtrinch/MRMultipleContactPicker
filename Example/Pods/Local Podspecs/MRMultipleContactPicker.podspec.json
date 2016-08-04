@@ -1,6 +1,6 @@
 {
   "name": "MRMultipleContactPicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "Multiple contact picker for ios 8.0+ in swift",
   "description": "Multiple contact picker for ios 8.0+ in swift 2.2",
   "homepage": "https://github.com/xTrinch/MRMultipleContactPicker",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/xtrinch/MRMultipleContactPicker.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
